@@ -1,0 +1,38 @@
+Protocol: ns3::TcpVegas
+
+Bottleneck bandwidth: 250Kbps
+Bottleneck delay: 35ms
+
+Local Bandwidth: 125Kbps
+Local Delay: 0.01ms
+
+MTU Bytes: 400
+IP Header size is: 20 Bytes
+TCP Header size is: 20 Bytes
+Segment size is: 340 Bytes
+data size to transmit (MB): 0 (0 = 無限制)
+how many connections: 3
+It start at 0 sec, end at 240 sec
+
+=========================
+
+flow sources: 3
+sink from 0s to 240s
+sink from 60s to 240s
+sink from 120s to 240s
+tracing-flow0 Schedule arrange: 1 sec
+tracing-flow1 Schedule arrange: 61 sec
+tracing-flow2 Schedule arrange: 121 sec
+Start flow1 At 0.1 sec
+RxDrop at 7.67181
+RxDrop at 9.67415
+RxDrop at 26.7184
+RxDrop at 43.5217
+Start flow2 At 60.1 sec
+RxDrop at 63.1077
+Start flow3 At 120.1 sec
+RxDrop at 160.048
+RxDrop at 164.694
+RxDrop at 182.632
+RxDrop at 216.507
+RxDrop at 235.593
